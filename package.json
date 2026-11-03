@@ -1,0 +1,28 @@
+{
+  "name": "job-tracker-api",
+  "version": "1.0.0",
+  "description": "CRUD API for tracking job applications with signup and login (Node.js, Express, MongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "crud",
+    "rest-api",
+    "mern"
+  ],
+  "author": "Sherif Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongoose": "^8.24.8",
+    "nodemon": "^3.1.14"
+  }
+}
