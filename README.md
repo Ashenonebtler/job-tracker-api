@@ -24,7 +24,7 @@ Built with Node.js, Express and MongoDB (Mongoose) as the back end of a MERN sta
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/job-tracker-api.git
+git clone https://github.com/Ashenonebtler/job-tracker-api.git
 cd job-tracker-api
 npm install
 ```

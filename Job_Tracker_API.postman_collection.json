@@ -1,0 +1,248 @@
+{
+  "info": {
+    "_postman_id": "ad58afc9-7781-4132-a316-ba8d8e8b72de",
+    "name": "Job Tracker API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57463417",
+    "_collection_link": "https://go.postman.co/collection/57463417-ad58afc9-7781-4132-a316-ba8d8e8b72de?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:4000/users/signup",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Youssef Ahmed\",\r\n  \"email\": \"Youssef@example.com\",\r\n  \"password\": \"Yy1290190!\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/users/signup",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "users",
+            "signup"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/users/signup",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Abdo\",\r\n  \"email\": \"Abdo@example.com\",\r\n  \"password\": \"AA1290190!\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/users/signup",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "users",
+            "signup"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/users/signup",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Sherif Ahmed\",\r\n  \"email\": \"sherif@example.com\",\r\n  \"password\": \"Sherif2024!\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/users/signup",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "users",
+            "signup"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/applications/updateapplication/6ae9c36ae0bc643ed0093525",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"company\": \"Vodafone Egypt\",\r\n  \"position\": \"Junior Backend Developer\",\r\n  \"status\": \"interview\",\r\n  \"notes\": \"HR call booked\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/applications/updateapplication/6ae9c36ae0bc643ed0093525",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "applications",
+            "updateapplication",
+            "6ae9c36ae0bc643ed0093525"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/users/login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{  \"email\": \"Youssef@example.com\",\r\n  \"password\": \"Yy1290190!\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/users/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "users",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/applications/getapplication/6ae9c36ae0bc643ed0093525",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:4000/applications/getapplication/6ae9c36ae0bc643ed0093525",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "applications",
+            "getapplication",
+            "6ae9c36ae0bc643ed0093525"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/applications/deleteapplication/6ae9c242e0bc643ed009351d",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:4000/applications/deleteapplication/6ae9c242e0bc643ed009351d",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "applications",
+            "deleteapplication",
+            "6ae9c242e0bc643ed009351d"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/applications/getallapplications",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:4000/applications/getallapplications",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "applications",
+            "getallapplications"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:4000/applications/create",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"company\": \"Vodafone Egypt\", \"position\": \"Junior Backend Developer\", \"location\": \"Cairo\", \"salary\": 15000, \"notes\": \"Applied through LinkedIn\" }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/applications/create",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "applications",
+            "create"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
